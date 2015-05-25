@@ -30,6 +30,7 @@ public class PanMenu extends JPanel {
         @Override
         public void actionPerformed(ActionEvent event) {
             PanMain.panClick.setVisible(false);
+            PanUpgrade.panUpgrade.setVisible(true);
         }
     }
 
